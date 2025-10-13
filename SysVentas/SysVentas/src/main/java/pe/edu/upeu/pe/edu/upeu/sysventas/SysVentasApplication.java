@@ -1,4 +1,4 @@
-package pe.edu.upeu.sysventas;
+package pe.edu.upeu.pe.edu.upeu.sysventas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
