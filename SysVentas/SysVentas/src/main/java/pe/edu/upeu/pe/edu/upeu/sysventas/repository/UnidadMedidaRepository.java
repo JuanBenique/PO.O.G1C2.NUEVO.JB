@@ -1,4 +1,6 @@
 package pe.edu.upeu.pe.edu.upeu.sysventas.repository;
 
-public interface UnidadMedidaRepository {
+import pe.edu.upeu.pe.edu.upeu.sysventas.model.UnidadMedida;
+
+public interface UnidadMedidaRepository extends  ICrudGenericRepository<UnidadMedida,Long>{
 }

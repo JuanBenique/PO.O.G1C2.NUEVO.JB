@@ -1,4 +1,6 @@
 package pe.edu.upeu.pe.edu.upeu.sysventas.repository;
 
-public interface CompCarritoRepository {
+import pe.edu.upeu.pe.edu.upeu.sysventas.model.CompCarrito;
+
+public interface CompCarritoRepository extends ICrudGenericRepository<CompCarrito,Long>{
 }

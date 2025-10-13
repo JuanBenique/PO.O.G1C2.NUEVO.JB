@@ -1,4 +1,6 @@
 package pe.edu.upeu.pe.edu.upeu.sysventas.repository;
 
-public interface ProveedorRepository {
+import pe.edu.upeu.pe.edu.upeu.sysventas.model.Proveedor;
+
+public interface ProveedorRepository extends ICrudGenericRepository<Proveedor,Long>{
 }

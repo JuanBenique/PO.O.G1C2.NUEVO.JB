@@ -1,6 +1,6 @@
 package pe.edu.upeu.pe.edu.upeu.sysventas.repository;
 
-import pe.edu.upeu.sysventas.model.Emisor;
+import pe.edu.upeu.pe.edu.upeu.sysventas.model.VentaDetalle;
 
-public interface VentaDetalleRepository extends ICrudGanericRepository<Emisor,Long>{
+public interface VentaDetalleRepository extends ICrudGenericRepository<VentaDetalle,Long>{
 }

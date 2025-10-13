@@ -1,4 +1,6 @@
 package pe.edu.upeu.pe.edu.upeu.sysventas.repository;
 
-public interface ClienteRepository {
+import pe.edu.upeu.pe.edu.upeu.sysventas.model.Cliente;
+
+public interface ClienteRepository extends ICrudGenericRepository<Cliente,String>{
 }
