@@ -12,6 +12,11 @@ public class UsuarioServiceImp extends CrudGenericServiceImp<Usuario, Long> impl
     private final UsuarioRepository usuarioRepository;
     @Override
     protected ICrudGenericRepository<Usuario, Long> getRepo() {
+
         return usuarioRepository;
+    }
+    @Override
+    public Usuario loginUsuario(String user, String clave) {
+        return usuarioRepository.loginUsuario(user, clave);
     }
 }
